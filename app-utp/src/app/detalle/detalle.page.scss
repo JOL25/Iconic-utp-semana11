@@ -1,0 +1,38 @@
+ion-content {
+  --background: #f5f6f8;
+}
+
+.contenedor {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.encabezado {
+  margin: 12px 0 18px;
+}
+
+.etiqueta {
+  margin: 0 0 4px;
+  color: #c8102e;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  color: #111111;
+  font-size: 1.65rem;
+  font-weight: 800;
+}
+
+p {
+  margin: 6px 0 0;
+  color: #5f6673;
+  line-height: 1.4;
+}
+
+ion-button {
+  min-height: 44px;
+  margin-top: 10px;
+}

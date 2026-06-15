@@ -1,0 +1,61 @@
+ion-content {
+  --background: #f5f6f8;
+}
+
+.contenedor {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.intro {
+  margin: 12px 0 18px;
+}
+
+.etiqueta {
+  margin: 0 0 4px;
+  color: #c8102e;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.titulo {
+  margin: 0;
+  color: #1f1f1f;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.descripcion {
+  margin: 6px 0 0;
+  color: #5f6673;
+  line-height: 1.4;
+}
+
+.formulario {
+  margin-bottom: 16px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.boton-principal {
+  margin-top: 18px;
+}
+
+ion-button {
+  min-height: 44px;
+  margin-top: 10px;
+}
+
+ion-card {
+  margin: 18px 0 0;
+  border-radius: 8px;
+}
+
+.card-ok {
+  border-left: 6px solid #16a34a;
+}
+
+.card-error {
+  border-left: 6px solid #c8102e;
+}

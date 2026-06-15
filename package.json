@@ -1,0 +1,21 @@
+{
+  "name": "iconic-utp-semana11",
+  "version": "1.0.0",
+  "description": "Workspace wrapper for the Ionic Angular UTP app.",
+  "scripts": {
+    "start": "npm --prefix app-utp start -- --host 0.0.0.0 --port 8100",
+    "build": "npm --prefix app-utp run build",
+    "apk": "cd app-utp && bash generar-apk.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOL25/Iconic-utp-semana11.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JOL25/Iconic-utp-semana11/issues"
+  },
+  "homepage": "https://github.com/JOL25/Iconic-utp-semana11#readme"
+}

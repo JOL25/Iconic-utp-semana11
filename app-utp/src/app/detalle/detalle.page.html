@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-title>Detalle de la app</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <main class="contenedor">
+    <section class="encabezado">
+      <p class="etiqueta">Semana 12</p>
+      <h1>Detalle de registro</h1>
+      <p>Comunicacion entre componentes Angular dentro de una app Ionic.</p>
+    </section>
+
+    <app-resumen-app [tipo]="tipo"></app-resumen-app>
+
+    <app-selector-tipo (tipoCambiado)="actualizarTipo($event)"></app-selector-tipo>
+
+    <ion-button expand="block" fill="clear" routerLink="/home">
+      <ion-icon slot="start" name="arrow-back-outline"></ion-icon>
+      Volver a Home
+    </ion-button>
+  </main>
+</ion-content>
